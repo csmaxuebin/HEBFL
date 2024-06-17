@@ -70,7 +70,7 @@ In ten classes classification task
 ## Experimental Results
 Fig. 4 shows that the accuracy changes of the global model in this paper and IoT mechanism on the X-ray, Flowers, CIFAR-10, and FashionMNIST dataset under the 2 malicious nodes and 1 lazy node.![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/1.png))
 ![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/2.png)Table 2 shows the test accuracy of the final model of our paper and the IoT mechanism on the X-ray, Flowers, CIFAR-10, and FashionMNIST dataset under 2 malicious nodes and 1 lazy node. 
-![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/3.png)![输入图片说明](/imgs/2024-06-16/vTHAM3tbpKDuDteO.png)Fig. 5 shows the accuracy changes of the global model of this paper and IoT mechanism on the X-ray, Flowers, CIFAR-10, and FashionMNIST datasets under 4 malicious nodes. 
+![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/3.png)![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/4.png)Fig. 5 shows the accuracy changes of the global model of this paper and IoT mechanism on the X-ray, Flowers, CIFAR-10, and FashionMNIST datasets under 4 malicious nodes. 
 ![输入图片说明](/imgs/2024-06-16/PtAD1p3uME2k2vug.png)Table 3 shows the test accuracy of the final model of our paper and the IoT mechanism on the X-ray, Flowers, CIFAR-10, and FashionMNIST datasets under 4 malicious nodes.
 ![输入图片说明](/imgs/2024-06-16/PXOHCCV6NibrZ238.png)Fig. 6 shows the accuracy changes of the global model of this paper and FedAT on the X-ray, Flowers, CIFAR-10, and FashionMNIST datasets.
 ![输入图片说明](/imgs/2024-06-16/UT2FvEom0l9ZbSrR.png)Table 4 shows the accuracy of the final model of our paper and FedAT in this experiment. 
