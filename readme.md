@@ -48,7 +48,7 @@ In ten classes classification task
  - momentum = 0.9
  - batch size = 16.
  ### Node settings
- ![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/1.png)
+ ![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/9.png)
 ## Python Files
 -   **blockweb.py**: 
     - def CheckAddress(self, _address): 检查传入地址是否正确
