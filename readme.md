@@ -73,7 +73,7 @@ Fig. 4 shows that the accuracy changes of the global model in this paper and IoT
 ![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/3.png)![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/4.png)Fig. 5 shows the accuracy changes of the global model of this paper and IoT mechanism on the X-ray, Flowers, CIFAR-10, and FashionMNIST datasets under 4 malicious nodes. 
 ![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/6.png)Table 3 shows the test accuracy of the final model of our paper and the IoT mechanism on the X-ray, Flowers, CIFAR-10, and FashionMNIST datasets under 4 malicious nodes.
 ![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/7.png)Fig. 6 shows the accuracy changes of the global model of this paper and FedAT on the X-ray, Flowers, CIFAR-10, and FashionMNIST datasets.
-![输入图片说明](/imgs/2024-06-16/UT2FvEom0l9ZbSrR.png)Table 4 shows the accuracy of the final model of our paper and FedAT in this experiment. 
+![输入图片说明](https://github.com/csmaxuebin/HEBFL/blob/main/picture/8.png)Table 4 shows the accuracy of the final model of our paper and FedAT in this experiment. 
 
 ## Updata log
 
