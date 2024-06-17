@@ -1,0 +1,304 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "IPFSAddrMatch",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_IPFS",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_number",
+				"type": "uint256"
+			}
+		],
+		"name": "OverSubmit",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_layer",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "_isVerifier",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_number",
+				"type": "uint256"
+			}
+		],
+		"name": "Regist",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_number",
+				"type": "uint256"
+			}
+		],
+		"name": "ViewFed",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "ViewLayerIPFS",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			},
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			},
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			},
+			{
+				"internalType": "string[3]",
+				"name": "",
+				"type": "string[3]"
+			},
+			{
+				"internalType": "uint256[3]",
+				"name": "",
+				"type": "uint256[3]"
+			},
+			{
+				"internalType": "uint256[3]",
+				"name": "",
+				"type": "uint256[3]"
+			},
+			{
+				"internalType": "uint256[3]",
+				"name": "",
+				"type": "uint256[3]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_number",
+				"type": "uint256"
+			}
+		],
+		"name": "ViewNode",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "BianHao",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "layer",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "lazy",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "valid",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "isVerifier",
+						"type": "bool"
+					}
+				],
+				"internalType": "struct newBHZ.Node",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_IPFS",
+				"type": "string"
+			}
+		],
+		"name": "addLazy",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "addrMatch",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "BianHao",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "layer",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "lazy",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "valid",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "isVerifier",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_number",
+				"type": "uint256"
+			}
+		],
+		"name": "fetchFedAvg",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_layer",
+				"type": "uint256"
+			}
+		],
+		"name": "fetchGroup",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_IPFS",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_layer",
+				"type": "uint256"
+			}
+		],
+		"name": "subFedavg",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "subIsfull",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_IPFS",
+				"type": "string"
+			}
+		],
+		"name": "toxTermin",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
